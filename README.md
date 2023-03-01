@@ -4,7 +4,7 @@
 
 <a href="https://licashsg.github.io/Page-not-found-Challenge/">Home</a> </h1>
 
-<p align="center" > <strong>Projeto de transferencia de arquivos ainda em desenvolvimento</strong></p>
+<p align="center" > <strong></strong></p>
 
 <div align="center">
 
