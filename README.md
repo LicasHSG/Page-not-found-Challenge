@@ -2,7 +2,7 @@
 
 <h1 align="center"> # Page-not-found-Challenge </h1>
 
-<a href="https://licashsg.github.io/Page-not-found-Challenge/"> visitar </a>
+<a href="https://licashsg.github.io/Page-not-found-Challenge"> visitar </a>
 
 
 <div align="center">
