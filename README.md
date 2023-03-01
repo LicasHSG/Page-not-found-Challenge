@@ -1,10 +1,7 @@
 
 
-<h1 align="center"> # Page-not-found-Challenge
+<h1 align="center"> # Page-not-found-Challenge </h1>
 
-<a href="https://licashsg.github.io/Page-not-found-Challenge/"></a> </h1>
-
-<p align="center" > <strong></strong></p>
 
 <div align="center">
 
