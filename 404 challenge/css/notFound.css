@@ -1,0 +1,174 @@
+:root{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+    --color-font: ( #333333);
+    --color-font-two: (#4F4F4F);
+}
+
+body{
+    position: relative;
+    width: 98vw;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+.title{
+    font-family: 'Inconsolata', monospace;
+    color: var(--color-font);
+    font-weight: 700;
+    margin: 10px 50px;
+    padding: 25px 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 150px 80px 0 80px;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.container__img{
+    height: 447px;
+    width: 539px;
+    left: 77px;
+    top: 265px;
+    border-radius: 0px;
+}
+
+.scarecrowImg{
+    width: 550px;
+    height: 450px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.container__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 580px;
+}
+
+.title__container{
+    font-family: monospace;
+    color: var(--color-font);
+    font-weight: 700;
+    font-size: 60px;
+    Width: 586px;
+    height: 120px;
+}
+
+.text{
+    font-family: monospace;
+    font-size: 22px;
+    width: 400px;
+    height: 100px;
+}
+
+.btn{
+    font-family: monospace;
+    font-size: 16px;
+    width: 216px;
+    height: 58px;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.btn:hover{
+    background-color: #5c5c5c;
+    transition: 1s;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+   top: 300px;
+}
+
+.footer__text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        max-width: 375px;
+        height: 949px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    .title{
+        width: 200px;
+        height: 25px;
+        font-size: 24px;
+        margin: 10px 30px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        margin: 100px auto;
+    }
+
+    .container__img{
+        width: 289px;
+        margin: 30px 40px;
+    }
+
+    .scarecrowImg{
+        width: 100%;
+        height: 292px;
+    }
+
+
+    .title__container{
+        width: 350px;
+        height: 100px;
+        font-size: 48px;
+        margin: 10px 15px;
+        padding: 10px;
+    }
+
+    .text{
+        width: 300px;
+        height: 100px;
+        font-size: 18px;
+        margin: 10px 15px;
+        padding: 10px;
+    }
+
+    .btn{
+        width: 216px;
+        height: 70px;
+        font-size: 14px;
+        margin: 10px 15px;
+        padding: 10px;
+    }
+
+    footer{
+        width: 360px;
+        top: 160px;
+    }
+
+    .footer__text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        color: #BDBDBD;
+    }
+
+  }
